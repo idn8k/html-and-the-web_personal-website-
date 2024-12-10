@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'Fira Sans', sans-serif;
+}
+
+.header {
+   background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   height: 100px;
+   justify-content: space-between;
+   padding: 0 25px;
+}
+
+.header h1 {
+   font-weight: 800;
+   font-size: 82px;
+}
+
+.header nav {
+   display: flex;
+   justify-content: space-between;
+   gap: 24px;
+   padding: 0 10px;
+}
+
+.header nav a {
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   text-decoration: none;
+}
+
+.about-section {
+   padding: 0 24px;
+   position: relative;
+   z-index: -1;
+   top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.about-section figure {
+   width: 40%;
+}
+
+.about {
+   background: #e15559;
+   width: 60%;
+}
+
+/* .profile-img {
+   width: 50px;
+} */
+
+footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   height: 100px;
+   background: black;
+   color: white;
+}
